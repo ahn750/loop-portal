@@ -29,7 +29,7 @@ first_frame=cv2.imread(paths[0])
 capVid=cv2.VideoCapture(paths[1])
 frame2=first_frame.copy()
 
-num_videos=len(path)
+num_videos=len(paths)
 
 startTime=0
 count=0
